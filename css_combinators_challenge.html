@@ -13,7 +13,23 @@
         ol li {
             color: violet;
         }
-
+        
+   div > p {
+            color: red;
+        }
+        
+        p + p {
+            color: blue;
+        } 
+        
+        p ~ ul {
+            color: orange;
+        }
+        
+        /* I can not work out how to use to 2 slectors */
+        
+        ul>li[class="a"] {color: pink;}
+        
     </style>
 </head>
     
@@ -30,8 +46,11 @@
         <p>
             make this text blue using an adjacent selector
         </p>
+        
+        <p>
         <ul>
-            <li>make this text orange using a general sibling selector; <em>and this phrase pink by combining 2 types of selectors</em></li>
+            <li>make this text orange using a general sibling selector; <a>and this phrase pink by combining 2 types of selectors.</a> </li>
+        </p>
         </ul>
     </div>
 </body>
