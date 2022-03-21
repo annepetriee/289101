@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 body {
-background-color: #82DDB5;
+background-color: #b6ead3;
 background-image: url('img/illustration.gif'), url('img/texture.jpg');
 background-position: center 280px, left top;
 background-repeat: no-repeat, repeat-x;
@@ -23,14 +23,17 @@ word-spacing: 2em;
 #header {
 text-align: center;
 margin-top: 40px;
+    padding-bottom: 350px
 }
 #logo {
 max-width: 360px;
 width: 100%;
+
 }
 #description, #date {
 max-width: 220px;
 width: 100%;
+
 }
 .register_btn {
 background-color: #E43;
@@ -44,21 +47,62 @@ margin-top: 25px;
 padding: 15px 30px;
 }
 
-#What{
-   padding: 200px 0
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+#what{
+   background-color: hsl(0, 0%, 100%,.65);
+    color: #347788;
+    text-align: start;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 30px;
+}
+h2 {
+    text-align: center
+}
+#sponsor_logos{
+    padding-bottom: 50px;
+    text-align: center
     
 }
 
-#sponsor_logos{
-    
+#massey{
+   max-width: 250px;
+    width: 100%;  
+}
+
+#oracle{
+     max-width: 250px;
+    width: 100%;
+}
+
+
+#
+h1 {
+    text-align: center;
+    font-weight: bold;
 }
 
 #why{
+color: #347788;
+padding-left: 400px;
+padding-right: 400px;
+background-color: #b6ead3;
+
+
     
 }
 
 #where{
-    
+    background-image: url("img/map.gif");
+    background-repeat: no-repeat;
+    color: #bb4488;
+    font-weight: bold;
+    text-align: end;
+   /* this is where I stopped today, how do I make the picture the full size*/
 }
 
 #when{
