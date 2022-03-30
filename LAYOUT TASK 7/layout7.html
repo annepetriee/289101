@@ -34,16 +34,21 @@
             
             .yellow{
                 background-color: yellow;
+                column-span: none;
+               
+               
                 
             
             }
             
-            .yellow full-width{
+            .yellowfullwidth{
                 background-color: yellow;
-                 
-                
-                   
+                grid-column: 1 / 5;
+                grid-row: 1;
+                      
             }
+            
+          
             
             #header{
                 display: grid;
@@ -56,9 +61,8 @@
             }
             
             #main{
-                height: 300px;
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: repeat(3, 1fr);
                 grid-column-gap: 20px;
                 row-gap: 20px;
                 
@@ -66,7 +70,6 @@
             
             
             #full{
-                height: 500px;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
                 grid-column-gap: 10px;
@@ -75,7 +78,6 @@
             }
             
             #next{
-                height: 450px;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 grid-column-gap: 10px;
@@ -84,10 +86,11 @@
             }
             
             #final{
-                height: 450px;
                  display: grid;
                 grid-template-columns: 1fr 1fr;
                 grid-column-gap: 20px;
+                row-gap: 20px;
+                
                
                
             }
@@ -110,14 +113,14 @@
     <div class="green"id="page"></div>
     
     <div class="red" id="main">
-        <div class="yellow full-width"></div>
+        <div class="yellowfullwidth"></div>
         <div class="yellow"></div>
         <div class="yellow"></div>
         <div class="yellow"></div>
     </div>
     
     <div class="blue" id="full">
-        <div class="yellow full width"></div>
+        <div class="yellowfullwidth"></div>
         <div class="yellow"></div>
         <div class="yellow"></div>
         <div class="yellow"></div>
@@ -133,14 +136,14 @@
     </div>
     
     <div class="green" id="next">
-        <div class="yellow full width"></div>
+        <div class="yellowfullwidth"></div>
         <div class="yellow"></div>
         <div class="yellow"></div>
         <div class="yellow"></div>
     </div>
     
     <div class="red" id="final">
-         <div class="yellow full width"></div>
+         <div class="yellowfullwidth"></div>
          <div class="yellow"></div>
          <div class="yellow"></div>
     </div>
