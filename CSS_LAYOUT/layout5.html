@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Layout 7</title>
+        <style>
+            
+            #container{
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0px;
+            }
+            
+            div{
+                border: 1px black solid;
+                min-height: 10px;
+                padding: 10px;
+            }
+            
+            .red{
+                background-color: red;
+            }
+            
+            .blue{
+                background-color: blue;
+            }
+            
+            .green{
+                background-color: green;
+                
+            }
+            
+            .yellow{
+                background-color: yellow;
+            
+            }
+            
+            .yellow full-width{
+                background-color: yellow;
+                height: 400px;
+            }
+            
+            #header{
+                display: grid;
+                grid-template-columns: 20% 75%;
+                grid-column-gap: 10px
+            }
+            
+            #page{
+                height: 400px;
+            }
+            
+            #page2{
+                height: 300px
+                
+            }
+            
+            
+          
+        
+        </style>
+    </head>
+    <body>
+<div id="container">
+    <div class="blue" id="header">
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+    </div>
+    <div class="green" id=page></div>
+    
+    <div class="red" id=page2>
+        <div class="yellow full-width"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+    </div>
+    <div class="blue"></div>
+    <div class="green"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+    </body>
+</html>

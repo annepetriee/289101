@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 body {
-background-color: #b6ead3;
+
 background-image: url('img/illustration.gif'), url('img/texture.jpg');
 background-position: center 280px, left top;
 background-repeat: no-repeat, repeat-x;
@@ -91,28 +91,74 @@ color: #347788;
 padding-left: 400px;
 padding-right: 400px;
 background-color: #b6ead3;
+padding-top: 50px;
+padding-bottom: 50px;
 
 
     
 }
 
-#where{
-    background-image: url("img/map.gif");
-    background-repeat: no-repeat;
+#where {
+    background-image: url(img/map.gif);
+    height: 500px;
     color: #bb4488;
     font-weight: bold;
-    text-align: end;
-   /* this is where I stopped today, how do I make the picture the full size*/
+    padding-top: 40px;
+    text-align:end;
+    padding-right: 400px;
+    padding-left: 400px;
 }
 
+p{
+    border
+}
 #when{
+    padding-top:50px;
+    color: #ffffff;
+    padding-right: 400px;
+    padding-left: 400px;
+    background-image: url(img/wires.png);
+    background-color: #439998   
     
+}
+
+ul{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 2px dashed #ffffff;  
 }
 
 #who{
+background-color: #ffffff;
+padding-top: 20px;
+color:#439998;
+padding-right: 400px;
+padding-left: 400px;
+padding-bottom: 50px;
+      
+}
+
+
+#footer{
+     background-image: url(img/texture.jpg);
+     text-align: center;
+   
     
 }
 
-#footer{
-    
+#twitter{
+    max-width: 50px;
+    width: 100%;
 }
+
+#facebook{
+  max-width: 50px;
+    width: 100%;  
+}
+
+#itch{
+    max-width: 50px;
+    width: 100%;
+}
+
+/* this isnt perfect but I think if I had more hours to work every little things out I could, Im just getting behind on my other class*/

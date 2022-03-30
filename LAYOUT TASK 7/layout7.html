@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Layout 7</title>
+        <style>
+            
+            #container{
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0px;
+            }
+            
+            div{
+                border: 1px black solid;
+                min-height: 10px;
+                padding: 10px;
+            }
+            
+            .red{
+                background-color: red;
+            }
+            
+            .blue{
+                background-color: blue;
+            }
+            
+            .green{
+                background-color: green;
+                
+            }
+            
+            .yellow{
+                background-color: yellow;
+            
+            }
+            
+            .yellow full-width{
+                background-color: yellow;
+                
+                
+                
+                
+                
+            }
+            
+            #header{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-column-gap: 10px
+            }
+            
+            #page{
+                height: 400px;
+            }
+            
+            #main{
+                height: 300px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-column-gap: 10px;
+                
+                }
+            
+            
+            #full{
+                height: 500px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-column-gap: 10px;
+                
+            }
+            
+            #next{
+                height: 450px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-column-gap: 10px;
+                
+            }
+            
+            #final{
+                height: 450px;
+                 display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 20px;
+            }
+            
+             #footer{
+                height: 50px;
+            }
+            
+            
+          
+        
+        </style>
+    </head>
+    <body>
+<div id="container">
+    <div class="blue" id="header">
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+    </div>
+    <div class="green"id="page"></div>
+    
+    <div class="red" id="main">
+        <div class="yellow full-width"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+    </div>
+    
+    <div class="blue" id="full">
+        <div class="yellow full width"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+    </div>
+    
+    <div class="green" id="next">
+        <div class="yellow full width"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+    </div>
+    
+    <div class="red" id="final">
+         <div class="yellow full width"></div>
+         <div class="yellow"></div>
+         <div class="yellow"></div>
+    </div>
+    
+    <div class="blue" id="footer"></div>
+    </body>
+</html>
